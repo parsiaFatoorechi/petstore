@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		040B72F71DDE2BED009AF8D9 /* pet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 040B72F51DDE2BED009AF8D9 /* pet.cpp */; };
+		040B72FA1DDE2FDC009AF8D9 /* PetStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 040B72F81DDE2FDC009AF8D9 /* PetStore.cpp */; };
+		040B72FE1DDE3079009AF8D9 /* Pet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 040B72FC1DDE3079009AF8D9 /* Pet.cpp */; };
 		0453BDD31DBFB5FE001E1EDA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0453BDD21DBFB5FE001E1EDA /* main.cpp */; };
-		04CC1A141DDE104E006C74B5 /* petstore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04CC1A131DDE104E006C74B5 /* petstore.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		040B72F51DDE2BED009AF8D9 /* pet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pet.cpp; sourceTree = "<group>"; };
+		040B72F81DDE2FDC009AF8D9 /* PetStore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PetStore.cpp; sourceTree = "<group>"; };
+		040B72F91DDE2FDC009AF8D9 /* PetStore.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PetStore.hpp; sourceTree = "<group>"; };
+		040B72FC1DDE3079009AF8D9 /* Pet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pet.cpp; sourceTree = "<group>"; };
+		040B72FD1DDE3079009AF8D9 /* Pet.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Pet.hpp; sourceTree = "<group>"; };
 		0453BDCF1DBFB5FC001E1EDA /* elisa program */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "elisa program"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0453BDD21DBFB5FE001E1EDA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		04CC1A131DDE104E006C74B5 /* petstore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = petstore.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				0453BDD21DBFB5FE001E1EDA /* main.cpp */,
-				04CC1A131DDE104E006C74B5 /* petstore.cpp */,
-				040B72F51DDE2BED009AF8D9 /* pet.cpp */,
+				040B72F81DDE2FDC009AF8D9 /* PetStore.cpp */,
+				040B72F91DDE2FDC009AF8D9 /* PetStore.hpp */,
+				040B72FC1DDE3079009AF8D9 /* Pet.cpp */,
+				040B72FD1DDE3079009AF8D9 /* Pet.hpp */,
 			);
 			path = "elisa program";
 			sourceTree = "<group>";
@@ -125,9 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040B72F71DDE2BED009AF8D9 /* pet.cpp in Sources */,
+				040B72FE1DDE3079009AF8D9 /* Pet.cpp in Sources */,
 				0453BDD31DBFB5FE001E1EDA /* main.cpp in Sources */,
-				04CC1A141DDE104E006C74B5 /* petstore.cpp in Sources */,
+				040B72FA1DDE2FDC009AF8D9 /* PetStore.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
