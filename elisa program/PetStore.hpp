@@ -9,7 +9,6 @@
 #ifndef PetStore_hpp
 #define PetStore_hpp
 
-#include <stdio.h>
 class PetStore {
 public:
    static const int MAX_STORE_SIZE = 5000;

@@ -20,7 +20,6 @@ private:
    string type;
    int numLimbs;
 public:
-   static long population;
    static const int MAX_STR_LEN = 20;
    static const int MAX_NUM = 1000;
    static const int MAX_RAND = 10;
